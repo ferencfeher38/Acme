@@ -1,0 +1,40 @@
+@import "../../styles/common/Fonts.scss";
+@import "../../styles/common/Colors.scss";
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+
+  p {
+    font-family: $font-2;
+    font-size: 12px;
+    line-height: 15px;
+    color: $color-gray-2;
+    margin: 0;
+  }
+
+  .text {
+    font-family: $font-1;
+    font-size: 12px;
+    line-height: 17px;
+    color: $color-gray-2;
+  }
+
+  .dot-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .dot {
+      width: 4px;
+      height: 4px;
+      background-color: $color-gray-2;
+      border-radius: 50%;
+      margin: 0 2px;
+    }
+  }
+}

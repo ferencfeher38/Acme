@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Open Sans Condensed";
+  src: url("../fonts/OpenSans_Condensed-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFPRODISPLAYREGULAR.otf") format("opentype");
+}
+
+$font-1: "Open Sans Condensed", sans-serif;
+$font-2: "SF Pro Display", sans-serif;
